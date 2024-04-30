@@ -20,7 +20,7 @@ class RuleBook
 
     move1_index = @moves.index(move1)
     move2_index = @moves.index(move2)
-
+    
     if @winning_moves[move1_index].include?(move2_index)
       'Win'
     else
